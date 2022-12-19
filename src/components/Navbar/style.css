@@ -1,0 +1,111 @@
+#navbar {
+       padding-bottom: 10px;
+       padding-top: 20px;
+       border-top: 1px solid rgba(255, 255, 255, 0.2);
+       border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+       padding-left: 15px;
+       padding-right: 15px;
+       width: 100%;
+       display: flex;
+       justify-content: center;
+}
+
+.btn-success {
+       background: none !important;
+       border: 0 !important;
+       color: #fff !important;
+       text-decoration: none;
+       display: inline-block !important;
+       font-weight: 500 !important;
+       font-size: 12px !important;
+       text-transform: uppercase !important;
+       outline: none !important;
+       padding: 0 8px 10px 8px !important;
+}
+
+.sozNav {
+       padding: 0 8px 0px 8px;
+       text-decoration: none;
+       display: inline-block;
+       color: #fff !important;
+       font-weight: 500;
+       font-size: 12px;
+       text-transform: uppercase;
+       outline: none;
+       text-decoration: none !important;
+}
+
+#drNav1 .dropdown-menu {
+       border-radius: 0 !important;
+       margin-top: 8px;
+       margin-left: -100px !important;
+}
+#drNav1 .css-ahj2mt-MuiTypography-root{
+       padding: 8px !important;
+       text-decoration: none;
+       display: inline-block;
+       color: #111 !important;
+       font-weight: 500 !important;
+       font-size: 13px;
+       outline: none;
+       cursor: pointer;
+}
+.sozNav:hover{
+      color: #f42f2c !important;
+      cursor: pointer; 
+}
+.btn-success:hover{
+       color: #f42f2c !important;
+       cursor: pointer; 
+ }
+#drNav1 .css-ahj2mt-MuiTypography-root:hover{
+       color: #f42f2c !important;
+       cursor: pointer; 
+ }
+#drNav2 .dropdown-menu {
+       border-radius: 0 !important;
+       margin-top: 8px;
+       margin-left: -100px !important;
+}
+#drNav3 .btn-success{
+       background: none !important;
+       border: 0 !important;
+       color: #111 !important;
+       text-decoration: none;
+       display: inline-block !important;
+       font-weight: 600 !important;
+       font-size: 12px !important;
+       text-transform: none !important;
+       outline: none !important;
+       padding: 0 8px 10px 8px !important;
+}
+#drNav2 .css-ahj2mt-MuiTypography-root{
+       background: none !important;
+       border: 0 !important;
+       color: #111 !important;
+       text-decoration: none;
+       display: inline-block !important;
+       font-weight: 500 !important;
+       font-size: 13px !important;
+       outline: none !important;
+       padding: 8px !important;
+       display: block !important;
+}
+#drNav3 .dropdown-menu {
+       border-radius: 0 !important;
+       margin-top: -30px;
+       margin-left: -161px !important;
+       display: block !important;
+}
+#drNav2 .css-ahj2mt-MuiTypography-root:hover{
+       color: #f42f2c !important;
+       cursor: pointer; 
+ }
+#drNav3 .dropdown-menu :hover{
+       color: #f42f2c !important;
+       cursor: pointer; 
+ }
+ #drNav3 .btn-success:hover{
+       color: #f42f2c !important;
+       cursor: pointer; 
+ }
