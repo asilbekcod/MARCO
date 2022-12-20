@@ -1,0 +1,70 @@
+#Reserve{
+    background-image: url(../../assets/img/download2.webp);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+}
+#Reservehra{
+    background: rgba(17,22,24,0.75);
+    width: 100%;
+    height: 100vh;
+    padding: 120px 205px;
+}
+#inptich{
+    background: #fff;
+    padding: 100px 40px;
+    min-width: 445px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: right;
+}
+#resyoz1{
+    font-family: "Poppins",sans-serif;
+    color: #fff;
+    line-height: 1.2em !important;
+    font-weight: 600;
+    font-size: 37px;
+}
+#resyoz2{
+    font-family: "Poppins",sans-serif;
+    font-size: 14.5px;
+    font-weight: 300;
+    line-height: 1.625em;
+    margin-bottom: 1rem;
+    padding-top: 20px;
+    color: #fff !important;
+}
+#resinpSt1{
+    border-radius: 0px;
+    margin-bottom: 10px;
+    border-color: #eeeeee;
+    font-size: 13px;
+    font-weight: 300;
+    padding: 0.575rem 0.75rem;
+    color: #999999;
+    transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+    line-height: 1.5;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    display: block;
+    width: 100%;
+    outline: none;
+}
+#inpyonbut{
+    background: #f42f2c;
+    line-height: 42px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize !important;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    margin-top: 20px;
+    text-decoration: none;
+    margin-left: 96px;
+}
