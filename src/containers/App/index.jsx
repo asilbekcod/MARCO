@@ -4,10 +4,12 @@ import Navbar from '../../components/Navbar/Navbar';
 import { Box, Typography } from '@mui/material'
 import Home from '../../pages/Home/Home';
 import About from '../../pages/About/About';
+import What from '../../pages/What/What';
 export default () => (
   <Box>
     <Navbar />
     <Home />
     <About />
+    <What />
   </Box>
 );
