@@ -1,0 +1,155 @@
+.futer {
+    width: 100%;
+    height: 65vh;
+    background-color: #f42f2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.futer-twx {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+}
+
+.futer-ram {
+    width: 33%;
+    /* background-color: #222; */
+    height: 100%;
+    padding: 10px;
+}
+
+.futer-open {
+    color: #fff;
+    padding-bottom: 30px;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    /* color: rgb(255, 255, 255); */
+    line-height: 1.2em !important;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 550;
+}
+
+.futer-draw {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    border-bottom: 1px solid rgba(238, 238, 238, 0.3);
+
+
+    /* color: #777; */
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    position: relative;
+}
+
+.futer-draw1 {
+    color: rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.futer-nomer {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.futer-in {
+    background: #ffffff;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    width: 100%;
+    /* padding: 0 15px; */
+    display: flex;
+}
+
+.futer-input {
+    width: 90%;
+    outline: none;
+    height: 35px;
+    border: none;
+    margin-left: 12px;
+}
+
+.futer-qizil {
+    background-color: #f42f2c;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* margin-left: 25px; */
+}
+
+.futer-past {
+    width: 100%;
+    height: 70px;
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.futer-raska {
+    width: 75%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.futer-ios {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.futer-span {
+    color: #f42f2c;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.futer-icon {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: #111111;
+    color: #fff;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    margin-left: 5px;
+}
+
+.futer-icon:hover {
+    background-color: #f42f2c;
+}
+
+.futer-abet {
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    margin-left: 35%;
+}
+
+.futer-qizil .bi {
+    padding: 10px;
+    font-weight: 900;
+    font-size: 24px !important;
+    color: #fff;
+    display: flex;
+    margin-top: -1px;
+}
