@@ -6,6 +6,7 @@ import Home from '../../pages/Home/Home';
 import About from '../../pages/About/About';
 import What from '../../pages/What/What';
 import Reserve from '../../pages/Reserve/Reserve';
+import Food from '../../pages/Food/Food';
 export default () => (
   <Box>
     <Navbar />
@@ -13,5 +14,6 @@ export default () => (
     <About />
     <What />
     <Reserve />
+    <Food />
   </Box>
 );
