@@ -2,12 +2,20 @@ import { Typography, Link } from "@mui/material";
 import { Box } from "@mui/system";
 import imgNav1 from '../../assets/img/logo.webp'
 import Dropdown from 'react-bootstrap/Dropdown';
-import * as React from 'react';
+import React, { useEffect, useState } from 'react';
 import './style.css'
 function Navbar() {
+    const [height, setHeight] = useState(0);
+    useEffect(() => {
+      window.addEventListener('scroll', () => {
+        setHeight(window.pageYOffset);
+      })
+      return () => window.removeEventListener('scroll', () => { })
+    })
+  
     return (
-        <Box sx={{ background: '#973734' }}>
-            <Box sx={{ padding: '20px 0', display: 'flex', justifyContent: 'center' }}>
+        <Box sx={{position:'fixed',width:'100%',}}>
+            <Box sx={{ padding: height > 100 ? '0px' : '20px 0', display: height > 100 ? 'none' : 'flex', justifyContent: 'center' }}>
                 <Typography>
                     <img src={imgNav1} alt="" />
                 </Typography>
@@ -15,7 +23,14 @@ function Navbar() {
             <Box sx={{
                 display: 'flex',
                 justifyContent: 'center',
-                padding: '10px 190px'
+                padding: height > 100 ? '0px' : '0px 190px',
+                background:height > 100 ? 'rgba(34,34,34,0.9)' : 'none',
+                transition:'all 0.5s',
+            }}> 
+            <Box sx={{
+                borderTop: height > 100 ? '0px' : '1px solid rgba(255, 255, 255, 0.2)',
+                borderBottom: height > 100 ? '0px' : '1px solid rgba(255, 255, 255, 0.2)',
+                width:'100%'
             }}>
                 <Box id='navbar'>
                     <Link className="sozNav">
@@ -76,6 +91,7 @@ function Navbar() {
                     <Link className="sozNav">
                         CONTACT
                     </Link>
+                </Box>
                 </Box>
             </Box>
         </Box>
