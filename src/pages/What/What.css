@@ -1,0 +1,108 @@
+#yozS2{
+    font-family: "Poppins",sans-serif;
+    color: #222;
+    line-height: 1.2em !important;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 36px;
+    text-align: center;
+}
+#yozS3{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    text-align: center !important;
+    margin-bottom: 16px;
+    letter-spacing: 1px;
+}
+#TabsWh{
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px 0px rgb(153 153 153 / 20%);
+    height: auto;
+    display: flex;
+}
+#tabsli1{
+    padding: 40px 0px !important;
+    width: 100% !important;
+    cursor: pointer !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    color: #fff !important;
+    background: #f42f2c !important;
+    text-decoration: none !important;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius:10px 0 0 10px ;
+}
+#tabsli2{
+    padding: 40px 0px !important;
+    width: 100% !important;
+    cursor: pointer !important;
+    color: #222 !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    border-right: 1px solid #edf6ff !important;
+    text-decoration: none !important;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+#tabsli3{
+    padding: 40px 0px !important;
+    width: 100% !important;
+    cursor: pointer !important;
+    color: #222 !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    text-decoration: none !important;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+#brwh1{
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 20px;
+    margin-right: 15px;
+    width: 100%;
+}
+#brwh2{
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 100%;
+}
+#tabichyoz1{
+    color: #222;
+    line-height: 1.2em !important;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 600;
+    font-size: 18px;
+}
+#tabichyoz2{
+    color: #f42f2c;
+    line-height: 1.2em !important;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 600;
+    font-size: 18px;
+    width: 100%;
+    text-align: right;
+}
+#tabichyoz{
+    display: flex;
+    margin-bottom: 20px;
+}
+#tabichyoz3{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300 !important;
+    line-height: 1.625em;
+}
