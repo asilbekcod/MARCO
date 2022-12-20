@@ -9,6 +9,7 @@ import Reserve from '../../pages/Reserve/Reserve';
 import Food from '../../pages/Food/Food';
 import Hulda from '../../pages/Hulda/Hulda';
 import Latest from '../../pages/Latest/Latest';
+import Futter from '../../components/Futter/Futter';
 export default () => (
   <Box>
     <Navbar />
@@ -19,5 +20,6 @@ export default () => (
     <Food />
     <Hulda />
     <Latest />
+    <Futter/>
   </Box>
 );
