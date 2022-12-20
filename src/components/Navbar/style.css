@@ -1,8 +1,6 @@
 #navbar {
        padding-bottom: 10px;
        padding-top: 20px;
-       border-top: 1px solid rgba(255, 255, 255, 0.2);
-       border-bottom: 1px solid rgba(255, 255, 255, 0.2);
        padding-left: 15px;
        padding-right: 15px;
        width: 100%;
@@ -20,11 +18,14 @@
        font-size: 12px !important;
        text-transform: uppercase !important;
        outline: none !important;
-       padding: 0 8px 10px 8px !important;
+       padding: 0 16px 10px 16px !important;
+}
+.dropdown-menu{
+       display: block !important;
 }
 
 .sozNav {
-       padding: 0 8px 0px 8px;
+       padding: 0 16px;
        text-decoration: none;
        display: inline-block;
        color: #fff !important;
@@ -39,11 +40,11 @@
        border-radius: 0 !important;
        margin-top: 8px;
        margin-left: -100px !important;
+       display: block !important;
 }
 #drNav1 .css-ahj2mt-MuiTypography-root{
        padding: 8px !important;
        text-decoration: none;
-       display: inline-block;
        color: #111 !important;
        font-weight: 500 !important;
        font-size: 13px;
