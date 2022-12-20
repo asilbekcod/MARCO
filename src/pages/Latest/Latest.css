@@ -1,0 +1,45 @@
+#LatBut1{
+    background-color: #000;
+    color: #fff;
+    font-weight: 100;
+    padding: 2px 15px;
+    width: 115px;
+    text-align: center;
+    text-decoration: none;
+}
+#LatImg2{
+    font-family: "Poppins",sans-serif;
+    color: #222;
+    line-height: 1.2em !important;
+    margin-top: 0;
+    font-weight: 600;
+    font-size: 18px;
+    transition: all 0.3s ease 0s;
+    margin-bottom: 12px;
+}
+#LatImg3{
+    color: #777;
+    font-family: "Poppins",sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    margin-bottom: 1rem;
+}
+#LatImg4{
+    color: #777;
+    font-family: "Poppins",sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    width: 100%;
+}
+#LatImg5{
+    color: #777;
+    font-family: "Poppins",sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    width: 100%;
+    text-align: right;
+    padding-right: 5px;
+}
